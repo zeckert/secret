@@ -32,7 +32,7 @@ namespace FindAdditive
             }
             Console.ReadLine();
         }
-
+        //iterate through all combinations of primes to determine if additive
         private static bool isAdditive(List<int> primes)
         {
             //dictioinary for the results of secret() so secret() is run only once per number
